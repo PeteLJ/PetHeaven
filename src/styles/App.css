@@ -1,0 +1,72 @@
+/* src/styles/App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fcfcfc;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.main-content {
+  padding-top: 80px;
+}
+
+footer.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f0f0f0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.btn.primary {
+  background-color: #4a8c6f;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #3a6e58;
+  transform: scale(1.03);
+}
+
+.btn.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn.secondary:hover {
+  background-color: #5a6268;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 70px;
+  }
+}

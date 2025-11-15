@@ -1,0 +1,67 @@
+/* src/styles/AboutPage.css */
+.about-page {
+  padding: 20px;
+  background-color: #fcfdfc;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e8f4f0 0%, #d1e8dd 100%);
+  margin-bottom: 40px;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  color: #2c5b47;
+  margin-bottom: 16px;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-text {
+  line-height: 1.7;
+  color: #444;
+}
+
+.about-text h2 {
+  color: #2c5b47;
+  margin: 30px 0 16px;
+  border-bottom: 2px solid #4a8c6f;
+  padding-bottom: 8px;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}
+
+.team-photo-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.team-photo {
+  width: 80%;
+  height: 400px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-image: url('../assets/our_team.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

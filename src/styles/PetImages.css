@@ -1,0 +1,70 @@
+/* src/styles/PetImages.css */
+
+/* Hero & Layout Images */
+.hero-bg-image {
+  background-image: url('../assets/hero.png');
+}
+
+.team-photo-bg {
+  background-image: url('../assets/our_team.png');
+}
+
+.logo-image {
+  background-image: url('../assets/logo.png');
+}
+
+/* Pet Images - Cats */
+.pet-image-luna { background-image: url('../assets/pets/luna.png'); }
+.pet-image-milo { background-image: url('../assets/pets/milo.png'); }
+.pet-image-chloe { background-image: url('../assets/pets/chloe.png'); }
+.pet-image-leo { background-image: url('../assets/pets/leo.png'); }
+.pet-image-nala { background-image: url('../assets/pets/nala.png'); }
+.pet-image-tiger { background-image: url('../assets/pets/tiger.png'); }
+.pet-image-simba { background-image: url('../assets/pets/simba.png'); }
+.pet-image-bella { background-image: url('../assets/pets/bella.png'); }
+.pet-image-oreo { background-image: url('../assets/pets/oreo.png'); }
+.pet-image-mochi { background-image: url('../assets/pets/mochi.png'); }
+.pet-image-sushi { background-image: url('../assets/pets/sushi.png'); }
+.pet-image-whiskers { background-image: url('../assets/pets/whiskers.png'); }
+
+/* Pet Images - Dogs */
+.pet-image-bear { background-image: url('../assets/pets/bear.png'); }
+.pet-image-daisy { background-image: url('../assets/pets/daisy.png'); }
+.pet-image-rocky { background-image: url('../assets/pets/rocky.png'); }
+.pet-image-bailey { background-image: url('../assets/pets/bailey.png'); }
+.pet-image-max { background-image: url('../assets/pets/max.png'); }
+.pet-image-lucy { background-image: url('../assets/pets/lucy.png'); }
+.pet-image-charlie { background-image: url('../assets/pets/charlie.png'); }
+.pet-image-lola { background-image: url('../assets/pets/lola.png'); }
+.pet-image-duke { background-image: url('../assets/pets/duke.png'); }
+.pet-image-sadie { background-image: url('../assets/pets/sadie.png'); }
+.pet-image-toby { background-image: url('../assets/pets/toby.png'); }
+.pet-image-buddy { background-image: url('../assets/pets/buddy.png'); }
+
+.pet-image {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pet-card-image {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-pet-image {
+  width: 100%;
+  height: 75%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.placeholder-image {
+  background-image: url('../assets/pets/placeholder.png');
+}

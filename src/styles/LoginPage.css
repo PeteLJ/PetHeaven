@@ -1,0 +1,158 @@
+/* src/styles/LoginPage.css */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2c5b47;
+}
+
+.form-container.logged-in-message {
+  text-align: center;
+}
+
+.form-container.logged-in-message h2 {
+  color: #27ae60;
+}
+
+.form-container.logged-in-message p {
+  margin: 15px 0;
+  color: #555;
+}
+
+.logout-btn-inline {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.logout-btn-inline:hover {
+  background-color: #c0392b;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+.form-group .supporter-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  font-weight: normal;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  margin-right: 0px;
+  width: 200px;
+  height: 50px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4a8c6f;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.form-actions {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form-actions button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4a8c6f;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-bottom: 10px;
+}
+
+.form-actions button:hover {
+  background-color: #3a6e58;
+}
+
+.switch-form {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.switch-form button {
+  background: none;
+  border: none;
+  color: #4a8c6f;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.switch-form button:hover {
+  color: #3a6e58;
+}
+
+.staff-login-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.staff-login-link a {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.staff-login-link a:hover {
+  color: #d73826;
+}

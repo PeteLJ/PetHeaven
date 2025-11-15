@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PetHeaven/static/css/main.623a7e3d.css",
+    "main.js": "/PetHeaven/static/js/main.08b69a41.js",
+    "static/media/hero.png": "/PetHeaven/static/media/hero.8f0c12c20ce3b670e8c1.png",
+    "index.html": "/PetHeaven/index.html",
+    "main.623a7e3d.css.map": "/PetHeaven/static/css/main.623a7e3d.css.map",
+    "main.08b69a41.js.map": "/PetHeaven/static/js/main.08b69a41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.623a7e3d.css",
+    "static/js/main.08b69a41.js"
+  ]
+}

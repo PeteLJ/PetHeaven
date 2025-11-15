@@ -1,0 +1,211 @@
+/* src/styles/AdoptPage.css */
+.adopt-page {
+  padding: 20px;
+  background-color: #fcfdfc;
+}
+
+.adopt-header {
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.adopt-header h1 {
+  font-size: 2.2rem;
+  color: #2c5b47;
+  margin-bottom: 16px;
+}
+
+.adopt-header p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.pets-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.adopt-pet-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.adopt-pet-card:hover {
+  transform: translateY(-6px);
+}
+
+.adopt-pet-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.pet-details {
+  padding: 18px;
+}
+
+.pet-details h3 {
+  color: #2c5b47;
+  margin: 0 0 12px;
+}
+
+.pet-details p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.pet-desc {
+  font-style: italic;
+  color: #666;
+  margin-top: 12px;
+}
+
+.adopt-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 16px;
+  background-color: #e95420;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.adopt-btn:hover {
+  background-color: #d34a1c;
+  transform: none;
+}
+
+.filters-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  margin: 0 auto 30px;
+  max-width: 1000px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  margin-right: 60px;
+}
+
+.filter-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.filter-group select,
+.filter-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.price-slider {
+  min-width: 300px;
+}
+
+.slider-container {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.slider-container input {
+  flex: 1;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.result-count {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+.no-pets {
+  text-align: center;
+  grid-column: 1 / -1;
+  padding: 40px;
+  color: #888;
+}
+
+.hdb-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.hdb-badge.approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.hdb-badge.not-approved {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.fee {
+  margin: 8px 0;
+  font-size: 1.1rem;
+  color: #e95420;
+}
+
+@media (max-width: 768px) {
+  .filters-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .pets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .adopt-pet-card {
+    max-width: 100%;
+  }
+
+  .adopt-header {
+    margin-top: 40px;
+  }
+}
