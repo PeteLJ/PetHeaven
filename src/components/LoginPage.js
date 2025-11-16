@@ -1,6 +1,6 @@
 // src/components/LoginPage.js
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import '../styles/LoginPage.css';
 
@@ -177,7 +177,7 @@ const LoginPage = () => {
         </div>
 
         <div className="staff-login-link">
-          <p>Are you staff? <a href="/staff-login">Login here</a></p>
+          <p>Are you staff? <Link to="/staff-login">Login here</Link></p>
         </div>
 
       </div>

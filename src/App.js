@@ -27,12 +27,12 @@ const StaffPrivateRoute = ({ children }) => {
 
 // Private Route Component for User
 const UserPrivateRoute = ({ children }) => {
-  const { user } = useAuth(); // Check for regular user login
+  const { user } = useAuth();
   return user ? children : <Navigate to="/login" replace />;
 };
 
-function AppContent() {
-  const { isStaffLoggedIn } = useAuth(); // Check staff login status
+const AppContent = () => {
+  const { isStaffLoggedIn } = useAuth();
 
   return (
     <div className="app">
@@ -67,7 +67,7 @@ function AppContent() {
       <Footer />
     </div>
   );
-}
+};
 
 function App() {
   return (
