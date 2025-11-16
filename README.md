@@ -1,3 +1,7 @@
+Pet Heaven Website - ISIT207 Assignment 3
+
+Done by: Li Jie
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
